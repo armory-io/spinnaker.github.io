@@ -167,7 +167,7 @@ chime_user:
   image_path: assets/images/users/chime_logo.png
   alt: "Chime Logo" 
 ep_user:
-  image_path: assets/images/users/ep_logo.jpg
+  image_path: assets/images/users/ep-logo.jpg
   alt: "EP Logo" 
 ---
 
