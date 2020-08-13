@@ -29,7 +29,7 @@ subcomponent.
 **Note**: Spinnaker versions 1.18.0 and later require Halyard version 1.29.0 or later.
 {: .notice--info}
 
-{% assign reversed = site.changelogs | sort: 'date' | reverse  %}
+{% assign reversed = site.changelogs | sort: 'title' | reverse  %}
 {% for post in reversed %}
   {% unless post.tags contains 'deprecated' %}
 {% if post.version == blank %}
